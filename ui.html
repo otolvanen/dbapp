@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <header>
+        <h1>Puhelinluettelo</h1>
+    </header>
+    <div>
+      <form id="form" name="form">
+        <th>id: </th>
+        <td>
+          <input
+            name="id"
+            id="id"
+            type="text"
+            value=""
+            maxlength="35"
+            size="35"
+          />
+        </td>
+        <th>nimi: </th>
+        <td>
+          <input
+            name="nimi"
+            id="nimi"
+            type="text"
+            value=""
+            maxlength="35"
+            size="35"
+          />
+        </td>
+        <th>numero: </th>
+        <td>
+          <input
+            name="puhelin"
+            id="numero"
+            type="text"
+            value=""
+            maxlength="35"
+            size="35"
+          />
+        </td>
+  
+        <td>
+          <input name="etsi" type="button" id="get" value="GET" />
+          <input name="lisaa" type="button" id ="post" value="POST" />
+          <input name="paivita" type="button" id="update" value="UPDATE" />
+          <input name="poista" type="button" id="delete" value="DELETE" />
+        </td>
+      </form>
+    </div>
+    <div id = taulu>
+       
+    </div>
+    <script src="/scripts.js"></script>
+</body>
+</html>
